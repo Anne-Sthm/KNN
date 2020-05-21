@@ -78,7 +78,7 @@ public class Comparaison {
        
         
             for(j=0;j<=11;j++) { 
-                for (l=0;l<=i;l++){
+                for (l=0;l<i;l++){
                     distance = (longS[l]-x1)*(longS[l]-x1)+(largS[l]-y1)*(largS[l]-y1)+(longP[l]-x2)*(longP[l]-x2)+(largP[l]-y2)*(largP[l]-y2);
                     distance = Math.sqrt(distance);
                     if (distance<ppd ) {
@@ -89,10 +89,10 @@ public class Comparaison {
                 }
             
             espt[j]=esp[es];
-            longS[l]=10000;
-            largS[l]=10000;
-            longP[l]=10000;
-            largP[l]=10000;
+            longS[es]=10000;
+            largS[es]=10000;
+            longP[es]=10000;
+            largP[es]=10000;
             ppd=100000;
             }
             
