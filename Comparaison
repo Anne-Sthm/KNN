@@ -89,7 +89,6 @@ public class Comparaison {
                 }
             
             espt[j]=esp[l];
-            System.out.println(espt[j]);
             longS[l]=10000;
             largS[l]=10000;
             longP[l]=10000;
