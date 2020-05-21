@@ -88,7 +88,7 @@ public class Comparaison {
                     }
                 }
             
-            espt[j]=esp[l];
+            espt[j]=esp[es];
             longS[l]=10000;
             largS[l]=10000;
             longP[l]=10000;
